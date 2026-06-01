@@ -1,6 +1,6 @@
-scrape_configs:
-- job_name: "dev-test-25"
-  scheme: https
-  metrics_path: /metrics
-  static_configs:
-  - targets: ["dev-test-25.web-services.sytes.net"]
+- targets:
+  - "dev-test-25.web-services.sytes.net"
+  labels:
+    job: "dev-test-25"
+    __scheme__: "https"
+    __metrics_path__: "/metrics"
