@@ -1,6 +1,0 @@
-- targets:
-  - "dev-test-28.web-services.sytes.net"
-  labels:
-    job: "dev-test-28"
-    __scheme__: "https"
-    __metrics_path__: "/metrics"
