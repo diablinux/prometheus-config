@@ -1,0 +1,6 @@
+- targets:
+  - "app01.web-services.sytes.net"
+  labels:
+    job: "demo-app01"
+    __scheme__: "https"
+    __metrics_path__: "/metrics"
